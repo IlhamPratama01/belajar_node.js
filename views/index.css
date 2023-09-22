@@ -1,0 +1,38 @@
+a,
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: white;
+}
+span {
+  color: rgb(238, 255, 0);
+}
+.container {
+  display: flex;
+  place-items: center;
+  /* Memberikan tinggi 100% dari tinggi viewport */
+}
+footer {
+  margin-top: 14%;
+  padding: 12px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: bold;
+}
+.bawah {
+  margin-top: 2%;
+  padding: 12px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: bold;
+}
+.konten {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24vh;
+  background-color: rgb(243, 247, 31); /* 100% tinggi tampilan */
+}
